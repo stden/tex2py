@@ -1,0 +1,8 @@
+[tools]
+python = "3.4.2"
+
+[tasks.check]
+run = "git diff --check"
+
+[tasks.syntax]
+run = "python -m compileall -q ."
